@@ -1,0 +1,22 @@
+{
+  "name": "ash-agent-09-nevena",
+  "version": "0.0.0",
+  "type": "module",
+  "imports": {
+    "#*": "./agent/*",
+    "#evals/*": "./evals/*"
+  },
+  "scripts": {
+    "build": "ash build",
+    "dev": "ash dev",
+    "typecheck": "tsgo"
+  },
+  "dependencies": {
+    "ai": "7.0.0-canary.138",
+    "experimental-ash": "^0.18.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20260331.1"
+  }
+}
