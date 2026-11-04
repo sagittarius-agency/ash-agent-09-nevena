@@ -10,13 +10,13 @@ importers:
     dependencies:
       ai:
         specifier: 7.0.0-canary.138
-        version: 7.0.0-canary.138(zod@4.4.3)
+        version: 7.0.0-canary.138(zod@4.6.6)
       experimental-ash:
         specifier: ^0.18.0
-        version: 0.18.0(ai@7.0.0-canary.138(zod@4.4.3))
+        version: 0.18.0(ai@7.0.0-canary.138(zod@4.6.6))
       zod:
-        specifier: ^4.3.6
-        version: 4.4.3
+        specifier: ^4.6.6
+        version: 4.6.6
     devDependencies:
       '@typescript/native-preview':
         specifier: 7.0.0-dev.20260331.1
@@ -440,25 +440,25 @@ packages:
       uploadthing:
         optional: true
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.0-canary.81(zod@4.4.3)':
+  '@ai-sdk/gateway@4.0.0-canary.81(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.0-canary.16
-      '@ai-sdk/provider-utils': 5.0.0-canary.40(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.0-canary.40(zod@4.6.6)
       '@vercel/oidc': 3.2.0
-      zod: 4.4.3
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@5.0.0-canary.40(zod@4.4.3)':
+  '@ai-sdk/provider-utils@5.0.0-canary.40(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.0-canary.16
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.0.8
-      zod: 4.4.3
+      zod: 4.6.6
 
   '@ai-sdk/provider@4.0.0-canary.16':
     dependencies:
@@ -582,12 +582,12 @@ snapshots:
 
   '@workflow/serde@4.1.0': {}
 
-  ai@7.0.0-canary.138(zod@4.4.3):
+  ai@7.0.0-canary.138(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 4.0.0-canary.81(zod@4.4.3)
+      '@ai-sdk/gateway': 4.0.0-canary.81(zod@4.6.6)
       '@ai-sdk/provider': 4.0.0-canary.16
-      '@ai-sdk/provider-utils': 5.0.0-canary.40(zod@4.4.3)
-      zod: 4.4.3
+      '@ai-sdk/provider-utils': 5.0.0-canary.40(zod@4.6.6)
+      zod: 4.6.6
 
   consola@3.4.2: {}
 
@@ -606,9 +606,9 @@ snapshots:
 
   eventsource-parser@3.0.8: {}
 
-  experimental-ash@0.18.0(ai@7.0.0-canary.138(zod@4.4.3)):
+  experimental-ash@0.18.0(ai@7.0.0-canary.138(zod@4.6.6)):
     dependencies:
-      ai: 7.0.0-canary.138(zod@4.4.3)
+      ai: 7.0.0-canary.138(zod@4.6.6)
       nitro: 3.0.260429-beta
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -760,4 +760,4 @@ snapshots:
       db0: 0.3.4
       ofetch: 2.0.0-alpha.3
 
-  zod@4.4.3: {}
+  zod@4.6.6: {}

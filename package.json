@@ -14,7 +14,7 @@
   "dependencies": {
     "ai": "7.0.0-canary.138",
     "experimental-ash": "^0.18.0",
-    "zod": "^4.3.6"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@typescript/native-preview": "7.0.0-dev.20260331.1"
